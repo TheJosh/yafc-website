@@ -51,6 +51,13 @@ body {
 	padding: 13px;
 }
 
+#foot {
+	font-size: 11px;
+	padding: 12px;
+	border-top: 1px #ccc dashed;
+	margin-top: 15px;
+}
+
 
 h1, h2, h3, h4 {
 	margin: 0.8em 0;
