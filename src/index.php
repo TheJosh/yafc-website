@@ -7,6 +7,9 @@ require_once 'head.php';
 <p>Yafc is a fork of the old (dead?) <a href="http://yafc.sourceforge.net/">sourceforge project</a> of the same name.
 Like the original project, It's <a href="http://www.gnu.org/licenses/gpl-2.0.html">GPL 2</a>.</p>
 
+<p>Yafc is a console Linux application, although it's known to work on a number of similar platforms (e.g. FreeBSD).</p>
+
+
 <h2>Features</h2>
 <ul>
 <li>cached directory listings
@@ -24,11 +27,14 @@ Like the original project, It's <a href="http://www.gnu.org/licenses/gpl-2.0.htm
 <li>automatically enters nohup-mode when SIGHUP received (in get and put)
 <li>redirection to local command or file ('>', '>>' and '|')
 <li>proxy support
+<li>variable substitution for shell commands
+<li>ignore masks for uploads
 </ul>
 
 <h2>Download</h2>
-<p>The source is located on <a href="https://github.com/sebastinas/yafc">GitHub</a>.
-We also do releases from time to time.</p>
+<p>Yafc is included in most Linux distributions.</p>
+
+<p>The source is located on <a href="https://github.com/sebastinas/yafc">GitHub</a>. We also do releases from time to time.</p>
 
 <h2>Bugs</h2>
 <p>Please report bugs to <a href="https://github.com/sebastinas/yafc/issues">https://github.com/sebastinas/yafc/issues</a>.</p>
