@@ -1,5 +1,6 @@
 <?php
-$page_title = 'Home';
+$page_title = 'Yafc FTP Client';
+$page = 'index';
 require_once 'head.php';
 ?>
 
@@ -8,6 +9,8 @@ require_once 'head.php';
 Like the original project, It's <a href="http://www.gnu.org/licenses/gpl-2.0.html">GPL 2</a>.</p>
 
 <p>Yafc is a console Linux application, although it's known to work on a number of similar platforms (e.g. FreeBSD).</p>
+
+<p>We have a project on <a href="https://github.com/sebastinas/yafc">GitHub</a>.</p>
 
 
 <h2>Features</h2>
@@ -31,10 +34,9 @@ Like the original project, It's <a href="http://www.gnu.org/licenses/gpl-2.0.htm
 <li>ignore masks for uploads
 </ul>
 
-<h2>Download</h2>
-<p>Yafc is included in most Linux distributions.</p>
-
-<p>The source is located on <a href="https://github.com/sebastinas/yafc">GitHub</a>. We also do releases from time to time.</p>
+<h2>News</h2>
+<p>Yafc 1.1.3 has been released. This is the first release of the Yafc re-birth.</p>
+<p><a href="/news">More info</a> &nbsp; <a href="/download">Download</a></p>
 
 <h2>Bugs</h2>
 <p>Please report bugs to <a href="https://github.com/sebastinas/yafc/issues">https://github.com/sebastinas/yafc/issues</a>.</p>
@@ -42,9 +44,6 @@ Like the original project, It's <a href="http://www.gnu.org/licenses/gpl-2.0.htm
 reporting bugs, please include information on what machine and
 operating system, including versions, you are running, an example for
 me to reproduce (use the --trace option) and a patch if you have one.</p>
-
-<h2>News</h2>
-<p>Our first release (1.1.3) is due for release soon.</p>
 
 
 <?php

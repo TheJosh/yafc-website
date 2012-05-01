@@ -4,9 +4,13 @@ require_once 'head.php';
 ?>
 
 
-<p>You can download Yafc from <a href="https://github.com/sebastinas/yafc">GitHub</a>.</p>
+<p><a href="https://github.com/downloads/sebastinas/yafc/yafc-1.1.3.tar.bz2">Download Yafc 1.1.3</a></p>
 
-<p>Once we have an official release (1.1.3, coming soon), we will list it here.</p>
+<p><a href="https://github.com/sebastinas/yafc/downloads">Other Yafc releases (GitHub)</a></p>
+
+<p>Regular updates are made to the <a href="https://github.com/sebastinas/yafc">GitHub</a> repository.</p>
+
+<p>Clone: <code>git://github.com/sebastinas/yafc.git</code></p>
 
 <p>Yafc is also available in most Linux distributions, although most of them only have 1.1.1</p>
 

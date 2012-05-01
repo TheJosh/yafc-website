@@ -1,9 +1,16 @@
+<?php
+if ($page != 'index') {
+	$page_title .= ' | Yafc';
+}
+
+?>
 <!DOCTYPE html>
 <html>
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-	<title><?php echo htmlspecialchars($page_title); ?> | Yafc</title>
+	<title><?php echo htmlspecialchars($page_title); ?></title>
 	<link rel="stylesheet" href="style.css">
+	<meta name="description" content="Console FTP client with tab completion, kerberos, and more">
 </head>
 <body>
 
