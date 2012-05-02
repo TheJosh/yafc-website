@@ -1,6 +1,6 @@
 <?php
+$browser_title = 'Yafc FTP Client';
 $page_title = 'Yafc FTP Client';
-$page = 'index';
 require_once 'head.php';
 ?>
 
