@@ -23,8 +23,9 @@ Like the original project, It's <a href="http://www.gnu.org/licenses/gpl-2.0.htm
 <li>colored ls (ie, ls --color, uses $LS_COLORS like GNU ls)
 <li>autologin and bookmarks
 <li>Kerberos support (version 4 and 5, heimdal, kth-krb or MIT)
-<li>SFTP support (SSH2)
+<li>SFTP support (SSH2, supports .ssh/config)
 <li>recursive get/put/fxp/rm/ls
+<li>stats after large get or put
 <li>nohup mode get and put
 <li>tagging (queueing) of files for later transferring
 <li>automatically enters nohup-mode when SIGHUP received (in get and put)
@@ -32,6 +33,7 @@ Like the original project, It's <a href="http://www.gnu.org/licenses/gpl-2.0.htm
 <li>proxy support
 <li>variable substitution for shell commands
 <li>ignore masks for uploads
+<li>IPv6 support
 </ul>
 
 <h2>News</h2>
