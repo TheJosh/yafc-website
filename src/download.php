@@ -4,7 +4,7 @@ require_once 'head.php';
 ?>
 
 
-<p><a href="https://github.com/downloads/sebastinas/yafc/yafc-1.1.3.tar.bz2">Download Yafc 1.1.3</a></p>
+<p><a href="https://github.com/downloads/sebastinas/yafc/yafc-1.2.0.tar.xz">Download Yafc 1.2.0</a></p>
 
 <p><a href="https://github.com/sebastinas/yafc/downloads">Other Yafc releases (GitHub)</a></p>
 
