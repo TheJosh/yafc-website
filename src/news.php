@@ -4,7 +4,7 @@ require_once 'head.php';
 ?>
 
 
-<h2>Yafc 1.1.3</h2>
+<h2>Yafc 1.2.0</h2>
 
 <p>Yafc 1.2.0 has been released. This release features better FTP+SSH support and IPv6 support.</p>
 
