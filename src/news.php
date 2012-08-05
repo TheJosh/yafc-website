@@ -4,6 +4,19 @@ require_once 'head.php';
 ?>
 
 
+<h2>Yafc 1.2.1</h2>
+
+<p>Yafc 1.2.1 has been released. This is mainly a bugfix release.</p>
+
+<ul>
+	<li>Fixed regressions from 1.2.0
+		<br>FTP: "put" in ASCII mode works as expected again. (#20)
+		<br>SFTP: "cd .." works as expected again. (#21)
+	<li>SFTP: Use scp if available to speed up file transfers. (#16)
+	<li>Fixed several memory leaks and other programming errors.
+</ul>
+
+
 <h2>Yafc 1.2.0</h2>
 
 <p>Yafc 1.2.0 has been released. This release features better FTP+SSH support and IPv6 support.</p>
