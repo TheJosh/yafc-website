@@ -37,14 +37,18 @@ Like the original project, It's <a href="http://www.gnu.org/licenses/gpl-2.0.htm
 </ul>
 
 <h2>News</h2>
+
+<p>Yafc 1.2.2 has been released. It's just a bugfix release</p>
+<p><a href="/news#release-1-2-2">More info</a> &nbsp; <a href="/download">Download</a></p>
+
 <p>Yafc 1.2.1 has been released. It's just a bugfix release</p>
-<p><a href="/news">More info</a> &nbsp; <a href="/download">Download</a></p>
+<p><a href="/news#release-1-2-1">More info</a></p>
 
 <p>Yafc 1.2.0 has been released. This release features better FTP+SSH support and IPv6 support.</p>
-<p><a href="/news">More info</a></p>
+<p><a href="/news#release-1-2-0">More info</a></p>
 
 <p>Yafc 1.1.3 has been released. This is the first release of the Yafc re-birth.</p>
-<p><a href="/news">More info</a></p>
+<p><a href="/news#release-1-3-3">More info</a></p>
 
 <h2>Bugs</h2>
 <p>Please report bugs to <a href="https://github.com/sebastinas/yafc/issues">https://github.com/sebastinas/yafc/issues</a>.</p>

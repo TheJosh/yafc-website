@@ -4,10 +4,23 @@ require_once 'head.php';
 ?>
 
 
-<h2>Yafc 1.2.1</h2>
+<h2 id="release-1-2-2">Yafc 1.2.2</h2>
+<p>Yafc 1.2.2 has been released. This is mainly a bugfix release.</p>
+<ul>
+	<li>Fixed a few more regressions
+		<br>SFTP: "cd .." is now really fixed.
+	<li>BSD-4-clause and GPL-2+ are incompatible and we shipped BSD-4-clause code in
+		lib/base64.[ch]. The old base64 code is now replaced by a new one that uses
+		already implemented base64 functions. If Heimdal is available its
+		base64_encode and _decode are used. The old implementation used the same
+		interface as Heimdal, so this should be the safest options. If Heimdal is not
+		available either OpenSSL or libresolv's b64_* function are used to provide
+		base64 support.
+</ul>
 
+
+<h2 id="release-1-2-1">Yafc 1.2.1</h2>
 <p>Yafc 1.2.1 has been released. This is mainly a bugfix release.</p>
-
 <ul>
 	<li>Fixed regressions from 1.2.0
 		<br>FTP: "put" in ASCII mode works as expected again. (#20)
@@ -17,10 +30,8 @@ require_once 'head.php';
 </ul>
 
 
-<h2>Yafc 1.2.0</h2>
-
+<h2 id="release-1-2-0">Yafc 1.2.0</h2>
 <p>Yafc 1.2.0 has been released. This release features better FTP+SSH support and IPv6 support.</p>
-
 <ul>
 	<li>Fixed several memory leaks.
 	<li>Fixed segfault if connection to the server got lost. (#19)
@@ -33,11 +44,10 @@ require_once 'head.php';
 </ul>
 
 
-<h2>Yafc 1.1.3</h2>
-
+<h2 id="release-1-1-3">Yafc 1.1.3</h2>
 <p>Yafc 1.1.3 has been released. This is the first release of the Yafc re-birth.</p>
 
-<ul>
+<ul
 	<li>Applied several patches from Debian.
 	<li>Fixed segfault on ' -TAB-'.
 	<li>Replaced some custom autoconf checks with macros from autoconf-archive.
