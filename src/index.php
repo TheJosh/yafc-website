@@ -5,12 +5,15 @@ require_once 'head.php';
 ?>
 
 
-<p>Yafc is a fork of the old dead <a href="http://yafc.sourceforge.net/">sourceforge project</a> of the same name.
-Like the original project, It's <a href="http://www.gnu.org/licenses/gpl-2.0.html">GPL 2</a>.</p>
+<p>
+	Yafc is a command-line Linux FTP client, with a bunch of useful features which make it easier to use than <code>ftp</code> or <code>sftp</code>.
+	While it's mostly developed on Linux, it's been known to work on similar platforms (FreeBSD, OSX), and some not-so-similar platforms (Windows), with a bit of effort.
+</p>
 
-<p>Yafc is a console Linux application, although it's known to work on a number of similar platforms (e.g. FreeBSD).</p>
-
-<p>We have a project on <a href="https://github.com/sebastinas/yafc">GitHub</a>.</p>
+<p>
+	Originally developed by MHE on SourceForge, it was re-born in 2011 and developement is now done on <a href="https://github.com/sebastinas/yafc">GitHub</a>.
+	Like the original project, It's <a href="http://www.gnu.org/licenses/gpl-2.0.html">GPL 2</a>.
+</p>
 
 
 <h2>Features</h2>
@@ -36,6 +39,7 @@ Like the original project, It's <a href="http://www.gnu.org/licenses/gpl-2.0.htm
 <li>IPv6 support
 </ul>
 
+
 <h2>News</h2>
 
 <p>Yafc 1.2.3 has been released. It's just a bugfix release</p>
@@ -52,6 +56,7 @@ Like the original project, It's <a href="http://www.gnu.org/licenses/gpl-2.0.htm
 
 <p>Yafc 1.1.3 has been released. This is the first release of the Yafc re-birth.</p>
 <p><a href="/news#release-1-3-3">More info</a></p>
+
 
 <h2>Bugs</h2>
 <p>Please report bugs to <a href="https://github.com/sebastinas/yafc/issues">https://github.com/sebastinas/yafc/issues</a>.</p>
