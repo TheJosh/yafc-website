@@ -4,6 +4,15 @@ require_once 'head.php';
 ?>
 
 
+<h2 id="release-1-2-3">Yafc 1.2.3</h2>
+<p>Yafc 1.2.3 has been released. This is just a bugfix release.</p>
+<ul>
+	<li>configure.ac: Check if we need to link against libintl and add --with-gettext to specifiy prefix of the gettext installation.
+	<li>Fix a regression introduced in 1.2.2:
+		<br>Decoding base64 with the OpenSSL implementation fixed.
+</ul>
+
+
 <h2 id="release-1-2-2">Yafc 1.2.2</h2>
 <p>Yafc 1.2.2 has been released. This is mainly a bugfix release.</p>
 <ul>
