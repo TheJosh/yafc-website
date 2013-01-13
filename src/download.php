@@ -12,7 +12,7 @@ $releases = array(
 	array('1.2.0', '05/06/2012'),
 );
 
-$latest = array_shift($release);
+$latest = array_shift($releases);
 ?>
 
 
