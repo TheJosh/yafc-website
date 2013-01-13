@@ -4,6 +4,14 @@ require_once 'head.php';
 ?>
 
 
+<h2 id="release-1-2-4">Yafc 1.2.4</h2>
+<p>Yafc 1.2.4 has been released. This is just a bugfix release.</p>
+<ul>
+	<li>Fix several crashes on OpenBSD (and probably on other *BSDs).
+	<li>Fix a bug in the handling of ssh aliases if the alias cannot be resolved.
+</ul>
+
+
 <h2 id="release-1-2-3">Yafc 1.2.3</h2>
 <p>Yafc 1.2.3 has been released. This is just a bugfix release.</p>
 <ul>
