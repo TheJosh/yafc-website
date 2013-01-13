@@ -1,11 +1,23 @@
 <?php
 $page_title = 'Download';
 require_once 'head.php';
+
+$releases = array(
+	// uncomment this when the file is up
+	// array('1.2.4', '12/01/2013'),
+	
+	array('1.2.3', '02/09/2012'),
+	array('1.2.2', '08/08/2012'),
+	array('1.2.1', '02/08/2012'),
+	array('1.2.0', '05/06/2012'),
+);
+
+$latest = array_unshift($release);
 ?>
 
 
 
-<p><a href="/upload/yafc-1.2.4.tar.xz">Download Yafc 1.2.4</a> (release 12/01/2013)</p>
+<p><a href="/upload/yafc-<?php echo $latest[0]; ?>.tar.xz">Download Yafc <?php echo $latest[0]; ?></a> (released <?php echo $latest[1]; ?>)</p>
 
 <p>Regular updates are made to the <a href="https://github.com/sebastinas/yafc">GitHub</a> repository.</p>
 
@@ -16,10 +28,9 @@ require_once 'head.php';
 
 <h2>Older releases</h2>
 <ul>
-	<li><a href="/upload/yafc-1.2.3.tar.xz">1.2.3</a> (released 02/09/2012)
-	<li><a href="/upload/yafc-1.2.2.tar.xz">1.2.2</a> (released 08/08/2012)
-	<li><a href="/upload/yafc-1.2.1.tar.xz">1.2.1</a> (released 02/08/2012)
-	<li><a href="/upload/yafc-1.2.0.tar.xz">1.2.0</a> (released 05/06/2012)
+	<?php foreach ($releases as $row): ?>
+		<li><a href="/upload/yafc-<?php echo $row[0]; ?>.tar.xz"><?php echo $row[0]; ?></a> (released <?php echo $row[1]; ?>)
+	<?php endforeach; ?>
 </ul>
 
 
