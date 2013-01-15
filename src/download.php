@@ -3,9 +3,7 @@ $page_title = 'Download';
 require_once 'head.php';
 
 $releases = array(
-	// uncomment this when the file is up
-	// array('1.2.4', '12/01/2013'),
-	
+	array('1.2.4', '12/01/2013'),
 	array('1.2.3', '02/09/2012'),
 	array('1.2.2', '08/08/2012'),
 	array('1.2.1', '02/08/2012'),
