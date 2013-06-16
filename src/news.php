@@ -4,6 +4,16 @@ require_once 'head.php';
 ?>
 
 
+<h2 id="release-1-2-5">Yafc 1.2.5</h2>
+<p>Yafc 1.2.5 has been released. This is just a bugfix release.</p>
+<ul>
+	<li>Fix some memory leaks.
+	<li>Fix build errors when building with texinfo 5.
+	<li>Fix detection of some system headers.
+	<li>Make it possible to pass Kerberos 5 flags to configure if krb5-config is missing. 
+</ul>
+
+
 <h2 id="release-1-2-4">Yafc 1.2.4</h2>
 <p>Yafc 1.2.4 has been released. This is just a bugfix release.</p>
 <ul>
