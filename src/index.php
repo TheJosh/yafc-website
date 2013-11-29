@@ -42,8 +42,17 @@ require_once 'head.php';
 
 <h2>News</h2>
 
+<p>Yafc 1.3.1 has been released. It's just a bugfix release</p>
+<p><a href="/news#release-1-3-1">More info</a> &nbsp; <a href="/download">Download</a></p>
+
+<p>Yafc 1.2.6 has been released. It's just a bugfix release</p>
+<p><a href="/news#release-1-2-6">More info</a></p>
+
+<p>Yafc 1.3.0 has been released. This release features support for editline.</p>
+<p><a href="/news#release-1-3-0">More info</a></p>
+
 <p>Yafc 1.2.5 has been released. It's just a bugfix release</p>
-<p><a href="/news#release-1-2-5">More info</a> &nbsp; <a href="/download">Download</a></p>
+<p><a href="/news#release-1-2-5">More info</a></p>
 
 <p>Yafc 1.2.4 has been released. It's just a bugfix release</p>
 <p><a href="/news#release-1-2-4">More info</a></p>

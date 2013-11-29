@@ -3,6 +3,34 @@ $page_title = 'News';
 require_once 'head.php';
 ?>
 
+<h2 id="release-1-3-1">Yafc 1.3.1</h2>
+<p>Yafc 1.3.1 has been released. This is just a bugfix release.</p>
+<ul>
+  <li>Fix active connections broken by introducing IPv6 support. (#32)
+  <li>Send correct EPRT command.
+  <li>Fix a crash in ftp_send_cmd.
+  <li>Fix parsing of boolean values in configuration files.
+</ul>
+
+
+<h2 id="release-1-2-6">Yafc 1.2.6</h2>
+<p>Yafc 1.2.6 has been released. This is just a bugfix release.</p>
+<ul>
+  <li>Fix active connections broken by introducing IPv6 support. (#32)
+  <li>Send correct EPRT command.
+</ul>
+
+
+<h2 id="release-1-3-0">Yafc 1.3.0</h2>
+<p>Yafc 1.3.0 has been released. This release features support for editline.</p>
+<ul>
+  <li>Allow editline to be used as alternative to readline.
+  <li>Use strlcpy and strlcat in some places. This requires libbsd on Linux.
+  <li>Drop the code to support Kerberos 4.
+  <li>Fix segfault while writing a trace file. (#30)
+  <li>Remove some dead code that has never been used and drop workarounds for pre-C99 compilers.
+</ul>
+
 
 <h2 id="release-1-2-5">Yafc 1.2.5</h2>
 <p>Yafc 1.2.5 has been released. This is just a bugfix release.</p>
