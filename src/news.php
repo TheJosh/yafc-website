@@ -3,6 +3,16 @@ $page_title = 'News';
 require_once 'head.php';
 ?>
 
+<h2 id="release-1-3-2">Yafc 1.3.2</h2>
+<p>Yafc 1.3.2 has been released. This is just a bugfix release.</p>
+<ul>
+  <li>Fix broken stalled logic. Thanks to Matthew Gabeler-Lee for the patch. (#33)
+  <li>Fix bash completion. Thanks to Matthew Gabeler-Lee for the patch.
+  <li>Fix a crash in ftp_send_cmd.
+  <li>Fix detection of strlcpy. Thanks to Tim Clem for the patch. (#35)
+</ul>
+
+
 <h2 id="release-1-3-1">Yafc 1.3.1</h2>
 <p>Yafc 1.3.1 has been released. This is just a bugfix release.</p>
 <ul>
