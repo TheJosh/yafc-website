@@ -3,6 +3,13 @@ $page_title = 'News';
 require_once 'head.php';
 ?>
 
+<h2 id="release-1-3-3">Yafc 1.3.3</h2>
+<p>Yafc 1.3.3 has been released. This is just a bugfix release.</p>
+<ul>
+  <li>Fix build with readline 6.3. (#37)
+</ul>
+
+
 <h2 id="release-1-3-2">Yafc 1.3.2</h2>
 <p>Yafc 1.3.2 has been released. This is just a bugfix release.</p>
 <ul>
