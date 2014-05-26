@@ -3,6 +3,7 @@ $page_title = 'Download';
 require_once 'head.php';
 
 $releases = array(
+	array('1.3.4', '26/05/2014'),
 	array('1.3.3', '04/04/2014'),
 	array('1.3.2', '23/02/2014'),
 	array('1.3.1', '29/11/2013'),
