@@ -3,6 +3,19 @@ $page_title = 'News';
 require_once 'head.php';
 ?>
 
+<h2 id="release-1-3-5">Yafc 1.3.5</h2>
+<p>Yafc 1.3.5 has been released. This is just a bugfix release.</p>
+<ul>
+  <li>Fix compilation with readline 6.2. Thanks to Robin Neatherway for the patch.
+  (#38)</li>
+  <li>Fix typo in define. Thanks to Ryan Schmidt for the patch. (#40)</li>
+  <li>Fix compilation on Ubuntu 12.04 due to broken libbsd-overlay. (#46)</li>
+  <li>Fix compilation on Cygwin. (#41)</li>
+  <li>Fix prompt if readline is enabled. (#42)</li>
+  <li>Fix some issues with the ssh backend. (#43, #44, #45)</li>
+</ul>
+
+
 <h2 id="release-1-3-4">Yafc 1.3.4</h2>
 <p>Yafc 1.3.4 has been released. This is just a bugfix release.</p>
 <ul>
