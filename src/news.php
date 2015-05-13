@@ -3,6 +3,19 @@ $page_title = 'News';
 require_once 'head.php';
 ?>
 
+<h2 id="release-1-3-5">Yafc 1.3.6</h2>
+<p>Yafc 1.3.6 has been released. This is just a bugfix release.</p>
+<ul>
+  <li>Fix shortpath calculation. Thanks to Celelibi for the patch. (#48)</li>
+  <li>Fix %u in prompts if built without libssh. (#49)</li>
+  <li>Fix multiple memory leaks, crashes and use-after-free errors.</li>
+  <li>Use cached information if available on get/put --newer. Thanks to Celelibi for
+  the patch.</li>
+  <li>Fix put/get -n switch for sftp connections. (#53)</li>
+  <li>Fix libssh deprecation and bump version requirements accordingly.</li>
+</ul>
+
+
 <h2 id="release-1-3-5">Yafc 1.3.5</h2>
 <p>Yafc 1.3.5 has been released. This is just a bugfix release.</p>
 <ul>

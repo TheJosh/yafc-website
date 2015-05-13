@@ -42,20 +42,23 @@ require_once 'head.php';
 
 <h2>News</h2>
 
+<p>Yafc 1.3.6 has been released. It's just a bugfix release</p>
+<p><a href="/news#release-1-3-6">More info</a> &nbsp; <a href="/download">Download</a></p>
+
 <p>Yafc 1.3.5 has been released. It's just a bugfix release</p>
-<p><a href="/news#release-1-3-5">More info</a> &nbsp; <a href="/download">Download</a></p>
+<p><a href="/news#release-1-3-5">More info</a></p>
 
 <p>Yafc 1.3.4 has been released. It's just a bugfix release</p>
-<p><a href="/news#release-1-3-3">More info</a>
+<p><a href="/news#release-1-3-3">More info</a></p>
 
 <p>Yafc 1.3.3 has been released. It's just a bugfix release</p>
-<p><a href="/news#release-1-3-3">More info</a>
+<p><a href="/news#release-1-3-3">More info</a></p>
 
 <p>Yafc 1.3.2 has been released. It's just a bugfix release</p>
-<p><a href="/news#release-1-3-2">More info</a>
+<p><a href="/news#release-1-3-2">More info</a></p>
 
 <p>Yafc 1.3.2 has been released. It's just a bugfix release</p>
-<p><a href="/news#release-1-3-1">More info</a>
+<p><a href="/news#release-1-3-1">More info</a></p>
 
 <p>Yafc 1.2.6 has been released. It's just a bugfix release</p>
 <p><a href="/news#release-1-2-6">More info</a></p>
