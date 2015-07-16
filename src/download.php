@@ -24,7 +24,7 @@ $latest = array_shift($releases);
 
 
 
-<p><a href="/download/yafc-<?php echo $latest[0]; ?>.tar.xz">Download Yafc <?php echo $latest[0]; ?></a> (released <?php echo $latest[1]; ?>, <a href="/download/yafc-<?php echo $latest[0]; ?>.tar.xz.asc">signature</a>)</p>
+<p><a href="/downloads/yafc-<?php echo $latest[0]; ?>.tar.xz">Download Yafc <?php echo $latest[0]; ?></a> (released <?php echo $latest[1]; ?>, <a href="/downloads/yafc-<?php echo $latest[0]; ?>.tar.xz.asc">signature</a>)</p>
 
 <p>Regular updates are made to the <a href="https://github.com/sebastinas/yafc">GitHub</a> repository.</p>
 
@@ -36,7 +36,7 @@ $latest = array_shift($releases);
 <h2>Older releases</h2>
 <ul>
 	<?php foreach ($releases as $row): ?>
-		<li><a href="/download/yafc-<?php echo $row[0]; ?>.tar.xz"><?php echo $row[0]; ?></a> (released <?php echo $row[1]; ?>, <a href="/download/yafc-<?php echo $row[0]; ?>.tar.xz.asc">signature</a>)
+		<li><a href="/downloads/yafc-<?php echo $row[0]; ?>.tar.xz"><?php echo $row[0]; ?></a> (released <?php echo $row[1]; ?>, <a href="/downloads/yafc-<?php echo $row[0]; ?>.tar.xz.asc">signature</a>)
 	<?php endforeach; ?>
 </ul>
 
