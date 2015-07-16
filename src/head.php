@@ -24,7 +24,7 @@ if (! $browser_title) {
 	<a href="/download">Download</a>
 	<a href="/contribute">Contribute</a>
 	<a href="/credits">Credits</a>
-	<a href="/help">Help</a>
+	<a href="/help">Help manual</a>
 	<div class="clear"></div>
 </div>
 <div id="body">
