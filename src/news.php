@@ -3,7 +3,20 @@ $page_title = 'News';
 require_once 'head.php';
 ?>
 
-<h2 id="release-1-3-5">Yafc 1.3.6</h2>
+<h2 id="release-1-3-7">Yafc 1.3.7</h2>
+<p>Yafc 1.3.7 has been released. This is just a bugfix release.</p>
+<ul>
+  <li>Fix parsing of file modes. (#55)</li>
+  <li>Fix STOU usage for nohup. (#57)</li>
+  <li>Fix format string warnings.</li>
+  <li>Justify date in ls -l. Thanks to fluks.</li>
+  <li>Fix double free. Thanks to fluks.</li>
+  <li>Fix switch when disconnected. Thanks to fluks.</li>
+  <li>Extend bash completion. Thanks to fluks.</li>
+  <li>Extend documentation. Thanks to fluks.</li>
+</ul>
+
+<h2 id="release-1-3-6">Yafc 1.3.6</h2>
 <p>Yafc 1.3.6 has been released. This is just a bugfix release.</p>
 <ul>
   <li>Fix shortpath calculation. Thanks to Celelibi for the patch. (#48)</li>
